@@ -1,0 +1,102 @@
+/* body */
+
+body{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* container wrap */
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #e9ecef;
+    padding: 50px 0;
+    border-radius: 10px;
+    height: max-content;
+    width: max-content;
+    overflow: hidden;
+}
+
+/* Header */
+
+.Nametitle{
+    color: #212529;
+}
+
+/* Profile Image */
+
+.profileWrap{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img{
+    max-width: 30%;
+    max-height: auto;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+/* Show Wrap */
+
+.trackTitle{
+    color: #343a40;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.showWrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    margin-top: 25px;
+    text-decoration: none;
+    width: 100%;
+}
+
+.showTitle{
+    color: #343a40;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.showBtn{
+    color: #212529;
+    font-size: 24px;
+    font-weight: bold;
+    border: 1px solid #6c757d;
+    border-radius: 5px;
+    padding: 15px 0;
+    width: 50%;
+    text-align: center;
+}
+
+/* Github Button */
+
+.btn{
+    color: #212529;
+    font-size: 24px;
+    font-weight: bold;
+    border: 1px solid #6c757d;
+    border-radius: 5px;
+    padding: 15px 0;
+    width: 50%;
+    text-align: center;
+    background: transparent;
+    cursor: pointer;
+}
+
+.btn:hover{
+    color: #e9ecef;
+    border: 1px solid #212529;
+    background: #212529;
+}

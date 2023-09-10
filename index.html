@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yunus HNGx Task 1</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href='style.css' >
+</head>
+<body>
+
+    <div class="container">
+
+        <!-- Profile Image -->
+        
+        <div class="profileWrap">
+            <img src="/img/yunus_mustapha_dp.jpeg" class="img" alt="yunus_mustapha" data-testid="slackDisplayImage">
+        </div>
+
+
+        <!-- Header -->
+        
+        <div class="headerWrap">
+            <h1 class="Nametitle" data-testid="slackUserName">Yunus Mustapha</h1>
+        </div>
+        
+        
+        <!-- Track -->
+        
+        <div class="trackWrap">
+            <span class="trackTitle" data-testid="myTrack">Frontend</span>
+        </div>
+
+
+        <!-- Display Day of Week -->
+        
+        <div class="showWrap">
+            <span class="showTitle">Today is: </span>
+            <span id="dayOfWeek" class="showBtn" data-testid="currentDayOfTheWeek"></span>
+        </div>
+        
+        <!-- Display Current UTC Time -->
+        
+        <div class="showWrap">
+            <span class="showTitle">Current UTC Time is: </span>
+            <span id="utcTime" class="showBtn" data-testid="currentUTCTime"></span>
+        </div>
+        
+        
+        <!-- Github Link -->
+        
+        <a href="" class="showWrap">
+
+            <button data-testid=“githubURL” class="btn">Github</button>
+        </a>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
